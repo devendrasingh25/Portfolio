@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .icon img {
+            padding: 10px;
+
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 60px 0;
+        }
+
+        .leftsection {
+            width: 40%;
+            margin: 120px 0px;
+            font-size: 2.6rem;
+        }
+
+        .rightsection {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .purple {
+            color: rgb(137, 104, 169);
+        }
+
+        nav {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 80px;
+            background-color: black;
+        }
+
+        .rightsection img {
+            width: 320px;
+            padding: 30px 40px;
+           
+        }
+
+        #element {
+            color: rgb(137, 104, 169);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+        .fourth ul li a {
+        text-decoration: none;
+         color: rgb(147, 84, 205) ;
+         font-size: 1.3rem;
+        }
+        
+
+
+        nav ul li a:hover {
+            color: rgb(147, 84, 205);
+            font: 1.01rem;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: white;
+            font-family: "Poppins", sans-serif;
+
+        }
+
+        .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+
+        }
+
+        .era {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .image {
+            width: 50%;
+
+            display: flex;
+            justify-content: end;
+
+        }
+
+        .box {
+
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 35px;
+            display: flex;
+
+        }
+
+        .second {
+            max-width: 80vw;
+            margin: auto;
+            padding: 15px;
+            height: unset;
+
+
+        }
+
+        .second h1 {
+            font-size: 1.9rem;
+        }
+
+        .third {
+            max-width: 80vw;
+            margin: auto;
+            padding: 15px;
+            height: unset;
+
+
+        }
+
+        .l {
+            width: 100%;
+            padding: 0px;
+            font-size: 1.3rem;
+
+        }
+
+        .third h1 {
+            font-size: 1.9rem;
+        }
+
+        .fourth {
+            max-width: 80vw;
+            margin: auto;
+            padding: 15px;
+            height: unset;
+
+
+        }
+
+        .fourth h1 {
+            font-size: 1.9rem;
+        }
+
+        .fivth {
+            max-width: 80vw;
+            margin: auto;
+            padding: 15px;
+
+            height: unset;
+
+
+        }
+
+        .fivth h1 {
+            font-size: 1.9rem;
+        }
+
+        .sixth {
+            max-width: 80vw;
+            margin: auto;
+            padding: 15px;
+            height: unset;
+
+
+        }
+
+        .sixth ul li {
+            padding: 9px;
+        }
+
+        .sixth ul {
+            font-size: 1.3rem;
+            width: 100%;
+        }
+
+        .sixth h1 {
+            font-size: 1.9rem;
+        }
+
+        .grey {
+            color: rgb(169 121 224);;
+            ;
+        }
+
+
+        .btn {
+            font-family: 'Poppins';
+            padding: 8px;
+            background-color: rgb(118 82 154);
+            font-size: 19px;
+            border: 2px solid white;
+            border-radius: 6px;
+            color: white;
+            cursor: pointer;
+        }
+        .btn a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        hr {
+            width: 100%;
+            border: 0;
+            background-color: rgb(118 82 154);
+            ;
+            height: 6px;
+        }
+
+
+        .third :last-child {
+            padding: 10px;
+            width: 50%;
+        }
+        .me ul li {
+            list-style: none;
+        }
+
+        @media screen and (max-width: 1051px) {
+
+            nav {
+                flex-direction: column;
+            }
+
+            .first {
+                flex-direction: column-reverse;
+            }
+
+            .leftsection {
+                width: 36%;
+                margin: 103px 0px;
+                font-size: 1.6rem;
+            }
+
+            .l {
+                font-size: medium;
+                width: 100%;
+            }
+
+            nav ul li {
+                list-style: none;
+                margin: 0 10px;
+            }
+
+            .second {
+                font-size: medium;
+            }
+
+            .third :last-child {
+                font-size:medium;
+                padding: 12px;
+            }
+
+            .fourth {
+                font-size: medium;
+            }
+
+            .sixth ul {
+                font-size: medium;
+                
+            }
+            .fourth ul li  {
+              font-size: medium;
+            }
+
+            .btn {
+                margin: 14px;
+                font-family: 'Poppins';
+                padding: 4px;
+                background-color: rgb(118 82 154);
+                font-size: 13px;
+                border: 2px solid white;
+                border-radius: 6px;
+                color: white;
+                cursor: pointer;
+            }
+
+            .bun {
+                display: flex;
+            }
+       
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home"> Home </a> </li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Project"> Project</a></li>
+                    <li><a href="#Contact">Contact Me </a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section class="first" id="Home">
+            <div class="leftsection">
+                <div>Welcome to My Portfolio !!</div>
+                Hi , My name is
+                <span class="purple">Devendra Solanki</span>
+                <div>I am passionate </div>
+
+                <span id="element"></span><br>
+                <div class="bun"> <button class="btn"><a href="">Download Resume</a></button>
+                    <button class="btn"><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=solankidevendrasingh25@gmail.com">Hire Me !!</a></button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img height="80%" src="pg.png" alt="g">
+            </div>
+        </section>
+
+
+        <hr>
+        <section class="third" id="About">
+          
+            <h1>About</h1>
+            <div class="box">
+            </div>
+
+            <div class="l grey"> &#8594;
+                &nbsp;
+
+                Hello! I'm Devendra Solanki, a second-year B.Tech student specializing in Computer
+                Science and Engineering at Rajasthan Technical University , Kota.
+
+
+            </div>
+            <div> &#8594;
+                &nbsp;
+
+                With a keen interest in software development, machine learning, and data analytics, I am actively
+                honing
+                my skills through academic projects and hands-on experience.</div>
+
+
+        </section>
+        <hr>
+        <section class="sixth" id="Education">
+
+            <h1>Education</h1>
+            <div class="box">
+            </div>
+            <div class="k grey">
+                <ul>
+                    <li>
+                        B.Tech in computer science and engineering from Rajasthan Technical University
+                    </li>
+                    <li>
+                        Passed 12th from Dr.Bansi Dhar School , Kota Rajasthan (2022)
+                        <div>percentage = 82 %</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section class="fourth" id="Project">
+
+            <h1>Project</h1>
+            <div class="box">
+            </div>
+            <div class="g grey">
+                <ul>
+                    <li><a href="https://github.com/devendrasingh25/WeatherWebApp">Weather Web App</a> </li>
+                    <li> <a href="https://github.com/devendrasingh25/TextToVoice">Text To Voice Converter</a></li>
+                    <li><a href="https://github.com/devendrasingh25/DropDown"> Drop Down </a></li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section class="fivth" id="Contact">
+
+            <h1>Contact Me</h1>
+            <div class="box">
+            </div>
+          
+            <div class="icon">
+                <a href="https://forms.gle/1W1TZHPC3CjAzqq59"><img height="35px" width="35px" src="mail.png" alt=""></a>
+                <a href="https://github.com/devendrasingh25"><img height="35px" width="35px" src="github.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/devendra-solanki-a44860290/"><img height="35px" width="35px" src="linkedin.png" alt=""></a>
+                <a href="https://x.com/Devendr27421192"><img height="35px" width="35px" src="twitter.png" alt=""></a>
+
+            </div>
+        </section>
+        <hr>
+
+    </main>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Viedo Editor','Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
